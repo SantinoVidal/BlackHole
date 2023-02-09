@@ -1,0 +1,371 @@
+/* -----Página de Inicio----- */
+@import url('https://fonts.googleapis.com/css2?family=Palanquin:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative&display=swap');
+
+*{
+     margin:0;
+     padding:0;
+}
+
+body{
+     background-color: rgb(14, 14, 14);
+     overflow-x: hidden;
+}
+
+#logo{
+     width: 390px;
+     height: 40px;
+     padding: 0px;
+     margin: 0px;
+     display: flex;
+     flex-wrap: wrap;
+     flex-direction: row;
+     justify-content: flex-start;
+}
+
+header{
+     font-family: 'Montserrat', sans-serif;;
+     font-weight: 800px;
+     font-size: 13px;
+     font-style: normal;
+     text-align: left;
+     text-transform: uppercase;
+     background-color: #000000;
+     padding: 10px 30px 20px 0px;
+}
+
+footer{
+     font-family: 'Montserrat', sans-serif;;
+     font-size: 12px;
+     font-style: normal;
+     text-align: left;
+     text-transform: uppercase;
+     color: #E3E3E3;
+     background-color: rgb(0, 0, 0);
+     margin-top: 70px;
+     padding: 20px 30px 50px 30px;
+}
+
+.redes{
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     justify-content: center;
+     margin-top: 40px;
+     margin-bottom: 30px;
+}
+
+.icon{
+     width: 40px;
+     height: 40px;
+     margin: 15px;
+}
+
+ul{
+     list-style-type: none;
+}
+
+ul li{
+     display: inline-block;
+     margin-top: 10px;
+}
+
+nav ul{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-evenly;
+}
+
+a{
+     text-decoration: none;
+     color: #04a7d4;
+     cursor: pointer;
+     transition: 0.4s;
+}
+
+footer a{
+     text-decoration: none;
+     color: #E3E3E3;
+     cursor: pointer;
+     transition-duration: 0.4s;
+}
+
+a:hover{
+     text-decoration: none;
+     color: #71e0ff;
+}
+
+p{
+     font-family: 'Palanquin', sans-serif;;
+     font-size: 20px;
+     font-style: normal;
+     text-align: center;
+     color: #E3E3E3;
+     margin: 30px 200px 30px 200px;
+}
+
+h1{
+     font-family: 'Montserrat', sans-serif;;
+     font-weight: 800px;
+     font-size: 55px;
+     font-style: normal;
+     text-align: center;
+     text-transform: uppercase;
+     margin-top: 40px;
+     margin-bottom: 30px;
+     color: #E3E3E3;
+}
+
+h2{
+     font-family: 'Signika Negative', sans-serif;
+     font-weight: 400px;
+     font-size: 45px;
+     font-style: normal;
+     text-align: center;
+     margin: 20px 100px 10px 100px;
+     color: #E3E3E3;
+}
+
+#subTitle{
+     margin-top: 50px;
+     margin-bottom: 50px;
+     padding: 30px;
+     background-image: linear-gradient(160deg, #0050d0 0%, #62d2c8 100%);
+}
+
+.imgGrande{
+     margin-top: 20px;
+     margin-bottom: 20px;
+     border: solid 5px #000000;
+     width: 700px;
+     height: 420px;
+     border-radius: 40px;
+     display: block;
+     margin: auto;
+}
+
+#imgStart{
+     margin:  10px 350px 20px 300px;
+     border: solid 5px #000000;
+     width: 900px;
+     height: 550px;
+     border-radius: 40px;
+}
+
+#tipoTitulo{
+     font-family: 'Montserrat', sans-serif;;
+     font-weight: 400px;
+     font-size: 40px;
+     font-style: normal;
+     text-align: center;
+     color: #E3E3E3;
+     padding: 20px;
+     background-image: linear-gradient(160deg, #0050d0 0%, #62d2c8 100%);
+}
+
+#subir{
+     text-align: center;
+     margin: 30px;
+     background-color:#141414
+}
+
+/* -----Arte y Creatividad----- */
+
+img{
+     margin-top: 40px;
+     margin-bottom: 40px;
+     border: solid 5px #000000;
+     border-radius: 40px;
+     width: 780px;
+     height: 360px;
+     display: block;
+     margin: auto;
+}
+
+.imgTop{
+     margin: 1px;
+     border: 1px;
+     width: 100%;
+     height: 626px;
+     border-radius: 0px;
+}
+
+#autoDraw{
+     font-family: 'Palanquin', sans-serif;;
+     font-weight: 40px;
+     font-size: 18px;
+     font-style: normal;
+     margin: 70px 200px 70px 320px;
+     color: #E3E3E3;
+}
+
+#example{
+     width: 780px;
+     height: 400px;
+}
+
+iframe{
+     margin-top: 40px;
+     margin-bottom: 40px;
+     width: 800px;
+     height: 400px;
+     border: groove #000000;
+     border-radius: 40px;
+     display: block;
+     margin: auto;
+}
+
+#incGames{
+     font-family: 'Palanquin', sans-serif;;
+     font-weight: 40px;
+     font-size: 18px;
+     font-style: normal;
+     margin: 20px 100px 20px 250px;
+     color: #E3E3E3;
+}
+
+.itemArt{
+     margin-top: 50px;
+     margin-bottom: 50px;
+     padding: 30px;
+     background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);     
+}
+
+/* -----Contacto----- */
+
+#backCont{
+     background-image: url(../img/contactback.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-attachment: fixed;
+     color: #ffffff;
+}
+
+.contact{
+     text-align: left;
+     margin-left: 25px;
+}
+
+fieldset{
+     margin-left: 10px;
+     margin-right: 10px;
+     background-color: rgb(23, 23, 23);
+     width: 800px;
+}    
+
+label{
+     font-family: 'Palanquin', sans-serif;;
+     font-weight: 40px;
+     font-size: 18px;
+     font-style: normal;
+     margin: 15px 200px 15px 10px;
+     color: #E3E3E3;
+}
+
+input{
+     margin: 5px 200px 5px 10px;
+}
+
+form{
+     width: 100%;
+     max-width: 600px;
+     margin: 0 auto;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+}
+
+form input{
+     width: 90%;
+     height: 30px;
+     margin: 5px;
+}
+
+form textarea{
+     width: 90.5%;
+     height: 100px;
+     margin: 5px;
+}
+
+form select{
+     width: 90.5%;
+     height: 30px;
+     margin: 5px;
+}
+
+form button{
+     border: none;
+     cursor: pointer;
+}
+
+/* -----About us----- */
+
+#backUs{
+     background-color: black;
+}
+
+.aboutUs{
+     width: 420px;
+     height: 65px;
+     display: block;
+     margin: auto;
+     border: 1px;
+}
+
+#mision{
+     font-family: 'Signika Negative', sans-serif;
+     font-weight: 400px;
+     font-size: 40px;
+     font-style: normal;
+     text-align: center;
+     margin: 30px 100px 10px 100px;
+     color: #E3E3E3;
+}
+
+.aboutUsP{
+     font-family: 'Palanquin', sans-serif;;
+     font-size: 30px;
+     font-style: normal;
+     text-align: center;
+     color: #E3E3E3;
+     margin: 10px 200px 30px 200px;
+}
+
+/* -----Advantages----- */
+
+.imgAdv{
+     margin-top: 40px;
+     margin-bottom: 40px;
+     border: solid 5px #000000;
+     border-radius: 40px;
+     width: 865px;
+     height: 440px;
+     display: block;
+     margin: auto;
+}
+
+.itemAdv{
+     margin-top: 50px;
+     margin-bottom: 50px;
+     padding: 30px;
+     background-image: linear-gradient(147deg, #ff3b6e 0%, #eb2d37 74%);     
+}
+
+/* -----Develop----- */
+
+.itemDev{
+     margin-top: 50px;
+     margin-bottom: 50px;
+     padding: 30px;
+     background-image: linear-gradient(45deg, #03b855 0%, #60bc52 100%);        
+}
+
+/*-----Media Querie-----*/
+/*-----Para Mobile-----*/
+@media screen and (max-width: 576px) {
+     
+}
