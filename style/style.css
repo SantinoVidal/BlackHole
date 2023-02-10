@@ -5,17 +5,17 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Signika+Negative&display=swap');
 
-*{
-     margin:0;
-     padding:0;
+* {
+     margin: 0;
+     padding: 0;
 }
 
-body{
+body {
      background-color: rgb(14, 14, 14);
      overflow-x: hidden;
 }
 
-#logo{
+#logo {
      width: 390px;
      height: 40px;
      padding: 0px;
@@ -26,8 +26,9 @@ body{
      justify-content: flex-start;
 }
 
-header{
-     font-family: 'Montserrat', sans-serif;;
+header {
+     font-family: 'Montserrat', sans-serif;
+     ;
      font-weight: 800px;
      font-size: 13px;
      font-style: normal;
@@ -37,8 +38,9 @@ header{
      padding: 10px 30px 20px 0px;
 }
 
-footer{
-     font-family: 'Montserrat', sans-serif;;
+footer {
+     font-family: 'Montserrat', sans-serif;
+     ;
      font-size: 12px;
      font-style: normal;
      text-align: left;
@@ -49,7 +51,7 @@ footer{
      padding: 20px 30px 50px 30px;
 }
 
-.redes{
+.redes {
      display: flex;
      flex-direction: row;
      flex-wrap: wrap;
@@ -58,48 +60,49 @@ footer{
      margin-bottom: 30px;
 }
 
-.icon{
+.icon {
      width: 40px;
      height: 40px;
      margin: 15px;
 }
 
-ul{
+ul {
      list-style-type: none;
 }
 
-ul li{
+ul li {
      display: inline-block;
      margin-top: 10px;
 }
 
-nav ul{
+nav ul {
      display: flex;
      flex-direction: row;
      justify-content: space-evenly;
 }
 
-a{
+a {
      text-decoration: none;
      color: #04a7d4;
      cursor: pointer;
      transition: 0.4s;
 }
 
-footer a{
+footer a {
      text-decoration: none;
      color: #E3E3E3;
      cursor: pointer;
      transition-duration: 0.4s;
 }
 
-a:hover{
+a:hover {
      text-decoration: none;
      color: #71e0ff;
 }
 
-p{
-     font-family: 'Palanquin', sans-serif;;
+p {
+     font-family: 'Palanquin', sans-serif;
+     ;
      font-size: 20px;
      font-style: normal;
      text-align: center;
@@ -107,8 +110,9 @@ p{
      margin: 30px 200px 30px 200px;
 }
 
-h1{
-     font-family: 'Montserrat', sans-serif;;
+h1 {
+     font-family: 'Montserrat', sans-serif;
+     ;
      font-weight: 800px;
      font-size: 55px;
      font-style: normal;
@@ -119,7 +123,7 @@ h1{
      color: #E3E3E3;
 }
 
-h2{
+h2 {
      font-family: 'Signika Negative', sans-serif;
      font-weight: 400px;
      font-size: 45px;
@@ -129,14 +133,14 @@ h2{
      color: #E3E3E3;
 }
 
-#subTitle{
+#subTitle {
      margin-top: 50px;
      margin-bottom: 50px;
      padding: 30px;
      background-image: linear-gradient(160deg, #0050d0 0%, #62d2c8 100%);
 }
 
-.imgGrande{
+.imgGrande {
      margin-top: 20px;
      margin-bottom: 20px;
      border: solid 5px #000000;
@@ -147,16 +151,17 @@ h2{
      margin: auto;
 }
 
-#imgStart{
-     margin:  10px 350px 20px 300px;
+#imgStart {
+     margin: 10px 350px 20px 300px;
      border: solid 5px #000000;
      width: 900px;
      height: 550px;
      border-radius: 40px;
 }
 
-#tipoTitulo{
-     font-family: 'Montserrat', sans-serif;;
+#tipoTitulo {
+     font-family: 'Montserrat', sans-serif;
+     ;
      font-weight: 400px;
      font-size: 40px;
      font-style: normal;
@@ -166,15 +171,15 @@ h2{
      background-image: linear-gradient(160deg, #0050d0 0%, #62d2c8 100%);
 }
 
-#subir{
+#subir {
      text-align: center;
      margin: 30px;
-     background-color:#141414
+     background-color: #141414
 }
 
 /* -----Arte y Creatividad----- */
 
-img{
+img {
      margin-top: 40px;
      margin-bottom: 40px;
      border: solid 5px #000000;
@@ -185,7 +190,7 @@ img{
      margin: auto;
 }
 
-.imgTop{
+.imgTop {
      margin: 1px;
      border: 1px;
      width: 100%;
@@ -193,8 +198,9 @@ img{
      border-radius: 0px;
 }
 
-#autoDraw{
-     font-family: 'Palanquin', sans-serif;;
+#autoDraw {
+     font-family: 'Palanquin', sans-serif;
+     ;
      font-weight: 40px;
      font-size: 18px;
      font-style: normal;
@@ -202,12 +208,12 @@ img{
      color: #E3E3E3;
 }
 
-#example{
+#example {
      width: 780px;
      height: 400px;
 }
 
-iframe{
+iframe {
      margin-top: 40px;
      margin-bottom: 40px;
      width: 800px;
@@ -218,8 +224,9 @@ iframe{
      margin: auto;
 }
 
-#incGames{
-     font-family: 'Palanquin', sans-serif;;
+#incGames {
+     font-family: 'Palanquin', sans-serif;
+     ;
      font-weight: 40px;
      font-size: 18px;
      font-style: normal;
@@ -227,16 +234,16 @@ iframe{
      color: #E3E3E3;
 }
 
-.itemArt{
+.itemArt {
      margin-top: 50px;
      margin-bottom: 50px;
      padding: 30px;
-     background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);     
+     background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
 }
 
 /* -----Contacto----- */
 
-#backCont{
+#backCont {
      background-image: url(../img/contactback.png);
      background-repeat: no-repeat;
      background-size: cover;
@@ -244,20 +251,21 @@ iframe{
      color: #ffffff;
 }
 
-.contact{
+.contact {
      text-align: left;
      margin-left: 25px;
 }
 
-fieldset{
+fieldset {
      margin-left: 10px;
      margin-right: 10px;
      background-color: rgb(23, 23, 23);
      width: 800px;
-}    
+}
 
-label{
-     font-family: 'Palanquin', sans-serif;;
+label {
+     font-family: 'Palanquin', sans-serif;
+     ;
      font-weight: 40px;
      font-size: 18px;
      font-style: normal;
@@ -265,11 +273,11 @@ label{
      color: #E3E3E3;
 }
 
-input{
+input {
      margin: 5px 200px 5px 10px;
 }
 
-form{
+form {
      width: 100%;
      max-width: 600px;
      margin: 0 auto;
@@ -279,36 +287,31 @@ form{
      align-items: center;
 }
 
-form input{
+form input {
      width: 90%;
      height: 30px;
      margin: 5px;
 }
 
-form textarea{
+form textarea {
      width: 90.5%;
      height: 100px;
      margin: 5px;
 }
 
-form select{
+form select {
      width: 90.5%;
      height: 30px;
      margin: 5px;
 }
 
-form button{
-     border: none;
-     cursor: pointer;
-}
-
 /* -----About us----- */
 
-#backUs{
+#backUs {
      background-color: black;
 }
 
-.aboutUs{
+.aboutUs {
      width: 420px;
      height: 65px;
      display: block;
@@ -316,7 +319,7 @@ form button{
      border: 1px;
 }
 
-#mision{
+#mision {
      font-family: 'Signika Negative', sans-serif;
      font-weight: 400px;
      font-size: 40px;
@@ -326,8 +329,9 @@ form button{
      color: #E3E3E3;
 }
 
-.aboutUsP{
-     font-family: 'Palanquin', sans-serif;;
+.aboutUsP {
+     font-family: 'Palanquin', sans-serif;
+     ;
      font-size: 30px;
      font-style: normal;
      text-align: center;
@@ -337,7 +341,7 @@ form button{
 
 /* -----Advantages----- */
 
-.imgAdv{
+.imgAdv {
      margin-top: 40px;
      margin-bottom: 40px;
      border: solid 5px #000000;
@@ -348,24 +352,22 @@ form button{
      margin: auto;
 }
 
-.itemAdv{
+.itemAdv {
      margin-top: 50px;
      margin-bottom: 50px;
      padding: 30px;
-     background-image: linear-gradient(147deg, #ff3b6e 0%, #eb2d37 74%);     
+     background-image: linear-gradient(147deg, #ff3b6e 0%, #eb2d37 74%);
 }
 
 /* -----Develop----- */
 
-.itemDev{
+.itemDev {
      margin-top: 50px;
      margin-bottom: 50px;
      padding: 30px;
-     background-image: linear-gradient(45deg, #03b855 0%, #60bc52 100%);        
+     background-image: linear-gradient(45deg, #03b855 0%, #60bc52 100%);
 }
 
 /*-----Media Querie-----*/
 /*-----Para Mobile-----*/
-@media screen and (max-width: 576px) {
-     
-}
+@media screen and (max-width: 576px) {}
