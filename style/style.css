@@ -40,7 +40,6 @@ header {
 
 footer {
      font-family: 'Montserrat', sans-serif;
-     ;
      font-size: 12px;
      font-style: normal;
      text-align: left;
@@ -112,7 +111,6 @@ p {
 
 h1 {
      font-family: 'Montserrat', sans-serif;
-     ;
      font-weight: 800px;
      font-size: 55px;
      font-style: normal;
@@ -161,7 +159,6 @@ h2 {
 
 #tipoTitulo {
      font-family: 'Montserrat', sans-serif;
-     ;
      font-weight: 400px;
      font-size: 40px;
      font-style: normal;
@@ -200,7 +197,6 @@ img {
 
 #autoDraw {
      font-family: 'Palanquin', sans-serif;
-     ;
      font-weight: 40px;
      font-size: 18px;
      font-style: normal;
@@ -226,7 +222,6 @@ iframe {
 
 #incGames {
      font-family: 'Palanquin', sans-serif;
-     ;
      font-weight: 40px;
      font-size: 18px;
      font-style: normal;
@@ -265,7 +260,6 @@ fieldset {
 
 label {
      font-family: 'Palanquin', sans-serif;
-     ;
      font-weight: 40px;
      font-size: 18px;
      font-style: normal;
@@ -331,7 +325,6 @@ form select {
 
 .aboutUsP {
      font-family: 'Palanquin', sans-serif;
-     ;
      font-size: 30px;
      font-style: normal;
      text-align: center;
