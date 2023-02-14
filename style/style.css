@@ -161,8 +161,6 @@ h2 {
      font-family: 'Montserrat', sans-serif;
      font-weight: 400px;
      font-size: 40px;
-     font-style: normal;
-     text-align: center;
      color: #E3E3E3;
      padding: 20px;
      background-image: linear-gradient(160deg, #0050d0 0%, #62d2c8 100%);
@@ -360,7 +358,3 @@ form select {
      padding: 30px;
      background-image: linear-gradient(45deg, #03b855 0%, #60bc52 100%);
 }
-
-/*-----Media Querie-----*/
-/*-----Para Mobile-----*/
-@media screen and (max-width: 576px) {}
