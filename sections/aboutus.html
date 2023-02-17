@@ -5,37 +5,57 @@
      <meta charset="UTF-8">
      <meta http-equiv="X-UA-Compatible" content="IE=edge">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+     <!-- Favicon -->
      <link rel="icon" type="icon/png" href="../img/favicon.png">
+
+     <!-- Link Animaciones AOS -->
      <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+     <!-- Link Bootstrap CSS -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+
+     <!-- Link CSS -->
      <link rel="stylesheet" href="../style/style.css">
-     <script src="https://kit.fontawesome.com/45001440e7.js" crossorigin="anonymous"></script>
+
      <title>Sobre nosotros | BlackHole</title>
 </head>
 
 <body id="backUs">
      <header id="arriba">
-          <nav>
-               <a href="../index.html"><img src="../img/logofrase.png" id="logo"></a>
-               <ul>
-                    <li>
-                         <a href="../index.html">Inicio</a>
-                    </li>
-                    <li>
-                         <a href="./develop.html">Desarrollo sustentable</a>
-                    </li>
-                    <li>
-                         <a href="./art.html">Arte y creatividad</a>
-                    </li>
-                    <li>
-                         <a href="./advantages.html">Ventajas</a>
-                    </li>
-                    <li>
-                         <a href="./aboutus.html">Sobre nosotros</a>
-                    </li>
-                    <li>
-                         <a href="./contact.html">Contacto</a>
-                    </li>
-               </ul>
+          <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+               <div class="container-fluid">
+                    <a href="../index.html"><img src="../img/blackholelogocopy.png" alt="logo de blackhole"
+                              class="d-inline-flex p-2" id="logo"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                         aria-expanded="false" aria-label="Toggle navigation">
+                         <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                              <li class="nav-item">
+                                   <a class="nav-link" href="../index.html">Inicio</a>
+                              </li>
+                              <li class="nav-item">
+                                   <a class="nav-link" href="./develop.html">Desarrollo sustentable</a>
+                              </li>
+                              <li class="nav-item">
+                                   <a class="nav-link" href="./art.html">Arte y creatividad</a>
+                              </li>
+                              <li class="nav-item">
+                                   <a class="nav-link" href="./advantages.html">Ventajas</a>
+                              </li>
+                              <li class="nav-item">
+                                   <a class="nav-link" href="./aboutus.html">Sobre nosotros</a>
+                              </li>
+                              <li class="nav-item">
+                                   <a id="glow" href="./contact.html">Contacto</a>
+                              </li>
+                              </li>
+                         </ul>
+                    </div>
+               </div>
           </nav>
      </header>
      <main>
@@ -58,49 +78,45 @@
           <section class="redes">
                <div>
                     <a href="https://www.facebook.com" target="_blank"><img class="icon" src="../img/facebookicon.png"
-                              alt=""></a>
+                              alt="icono de Facebook"></a>
                </div>
                <div>
                     <a href="https://www.twitter.com" target="_blank"><img class="icon" src="../img/twittericon.png"
-                              alt=""> </a>
+                              alt="icono de Twitter"></a>
                </div>
                <div>
                     <a href="https://www.instagram.com" target="_blank"><img class="icon" src="../img/instagramicon.png"
-                              alt=""></a>
+                              alt="icono de Instagram"></a>
                </div>
           </section>
           <div>
                <nav>
                     <ul>
                          <li>
-                              <i class="fa-solid fa-house"></i>
-                              <a href="../index.html">Inicio</a>
+                              <a href="../index.html"> <i class="fa-solid fa-house"></i></a>
                          </li>
                          <li>
-                              <i class="fa-sharp fa-solid fa-seedling"></i>
-                              <a href="./develop.html">Desarrollo sustentable</a>
+                              <a href="./develop.html"> <i class="fa-sharp fa-solid fa-seedling"></i></a>
                          </li>
                          <li>
-                              <i class="fa-sharp fa-solid fa-palette"></i>
-                              <a href="./art.html">Arte y creatividad</a>
+                              <a href="./art.html"> <i class="fa-sharp fa-solid fa-palette"></i></a>
                          </li>
                          <li>
-                              <i class="fa-sharp fa-solid fa-award"></i>
-                              <a href="./advantages.html">Ventajas</a>
+                              <a href="./advantages.html"> <i class="fa-sharp fa-solid fa-award"></i></a>
                          </li>
                          <li>
-                              <i class="fa-solid fa-people-group"></i>
-                              <a href="./aboutus.html">Sobre nosotros</a>
+                              <a href="./aboutus.html"> <i class="fa-solid fa-people-group"></i></a>
                          </li>
                          <li>
-                              <i class="fa-solid fa-envelope"></i>
-                              <a href="./contact.html">Contacto</a>
+                              <a href="./contact.html"> <i class="fa-solid fa-envelope"></i></a>
                          </li>
                     </ul>
                </nav>
           </div>
           <div id="subir">
-               <a href="#arriba">Volver al comienzo de página</a>
+               <a href="#arriba">
+                    <h5>Volver</h5>
+               </a>
           </div>
           <div>
                <h5>BlackHole - Attract your creativity</h5>
@@ -109,10 +125,21 @@
                <small>Sitio web desarrollado por Santino Vidal Gallea</small>
           </div>
      </footer>
+
+     <!-- Link Bootstrap JS -->
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
+     </script>
+
+     <!-- Link AOS JS -->
      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
      <script>
           AOS.init();
      </script>
+
+     <!-- Link Fontawesome JS -->
+     <script src="https://kit.fontawesome.com/45001440e7.js" crossorigin="anonymous"></script>
+
 </body>
 
 </html>

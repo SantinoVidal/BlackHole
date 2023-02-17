@@ -5,102 +5,161 @@
      <meta charset="UTF-8">
      <meta http-equiv="X-UA-Compatible" content="IE=edge">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+     <!-- Favicon -->
      <link rel="icon" type="icon/png" href="../img/favicon.png">
+
+     <!-- Link Animaciones AOS -->
      <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+     <!-- Link Bootstrap CSS -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+
+     <!-- Link CSS -->
      <link rel="stylesheet" href="../style/style.css">
-     <script src="https://kit.fontawesome.com/45001440e7.js" crossorigin="anonymous"></script>
+
      <title>Arte y creatividad | BlackHole</title>
 </head>
 
 <body>
      <header id="arriba">
-          <nav>
-               <a href="../index.html"><img src="../img/logofrase.png" id="logo"></a>
-               <ul>
-                    <li>
-                         <a href="../index.html">Inicio</a>
-                    </li>
-                    <li>
-                         <a href="./develop.html">Desarrollo sustentable</a>
-                    </li>
-                    <li>
-                         <a href="./art.html">Arte y creatividad</a>
-                    </li>
-                    <li>
-                         <a href="./advantages.html">Ventajas</a>
-                    </li>
-                    <li>
-                         <a href="./aboutus.html">Sobre nosotros</a>
-                    </li>
-                    <li>
-                         <a href="./contact.html">Contacto</a>
-                    </li>
-               </ul>
+          <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+               <div class="container-fluid">
+                    <a href="../index.html"><img src="../img/blackholelogocopy.png" alt="logo de blackhole"
+                              class="d-inline-flex p-2" id="logo"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                         aria-expanded="false" aria-label="Toggle navigation">
+                         <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                              <li class="nav-item">
+                                   <a class="nav-link" href="../index.html">Inicio</a>
+                              </li>
+                              <li class="nav-item">
+                                   <a class="nav-link" href="./develop.html">Desarrollo sustentable</a>
+                              </li>
+                              <li class="nav-item">
+                                   <a class="nav-link" href="./art.html">Arte y creatividad</a>
+                              </li>
+                              <li class="nav-item">
+                                   <a class="nav-link" href="./advantages.html">Ventajas</a>
+                              </li>
+                              <li class="nav-item">
+                                   <a class="nav-link" href="./aboutus.html">Sobre nosotros</a>
+                              </li>
+                              <li class="nav-item">
+                                   <a id="glow" href="./contact.html">Contacto</a>
+                              </li>
+                              </li>
+                         </ul>
+                    </div>
+               </div>
           </nav>
      </header>
      <main>
           <figure>
-               <img src="../img/inteligenciaarte.jpg" alt="Arte creada por IA" width="1470" class="imgTop">
+               <img src="../img/inteligenciaarte.jpg" alt="Arte creada por IA" class="imgTop">
           </figure>
-          <section>
-               <h1>La creatividad computacional</h1>
-               <p>La creatividad computacional es el estudio del desarrollo
-                    de software que presenta un comportamiento que sería considerado creativo en seres humanos. Este
-                    software creativo puede usarse en tareas anónimas, como inventar teorías matemáticas, escribir
-                    poesía, pintar cuadros y componer música. Sin embargo, la creatividad computacional también permite
-                    comprender cómo funciona la creatividad humana y reproducir programas para su uso por parte de
-                    creadores donde el software actúa como colaborador creativo y no como mera herramienta. Busca imitar
-                    procedimientos similares a los procesos inductivos y deductivos del cerebro humano.</p>
-          </section>
-          <section>
+          <h1>La creatividad computacional</h1>
+          <p>La creatividad computacional es el estudio del desarrollo
+               de software que presenta un comportamiento que sería considerado creativo en seres humanos. Este
+               software creativo puede usarse en tareas anónimas, como inventar teorías matemáticas, escribir
+               poesía, pintar cuadros y componer música. Sin embargo, la creatividad computacional también permite
+               comprender cómo funciona la creatividad humana y reproducir programas para su uso por parte de
+               creadores donde el software actúa como colaborador creativo y no como mera herramienta. Busca imitar
+               procedimientos similares a los procesos inductivos y deductivos del cerebro humano.</p>
+          <div>
                <h2 class="itemArt">Principales herramientas de diseño asistido por IA</h2>
-          </section>
-          <section data-aos="fade-right" data-aos-duration="1200">
+          </div>
+          <div>
                <h2>AutoDraw</h2>
-               <p>Desarrollada dentro del Google Creative Lab, este nuevo tipo de herramienta de dibujo combina la magia
+               <p data-aos="fade-right" data-aos-duration="1200">Desarrollada dentro del Google Creative Lab, este nuevo
+                    tipo de herramienta de dibujo combina la magia
                     del aprendizaje automático con los dibujos de artistas con talento. El algoritmo de AutoDraw intenta
                     adivinar lo que dibujas y basado en ello te ofrece un juego con gráficos de diferentes artistas.</p>
-          </section>
-               <div>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/VwRbvVrUXTc"
-                         title="YouTube video player" frameborder="0"
-                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                         allowfullscreen></iframe>
-               </div>
-               <div>
-                    <small id="autoDraw">Puedes revisar más experimentos desarrollados por Google en el campo de la IA,
-                         en su web: <a href="https://experiments.withgoogle.com/collection/ai"
-                              target="_blank">Experiments with Google</a></small>
-               </div>
-          </section>
-          <section data-aos="fade-left" data-aos-duration="1200">
+          </div>
+          <div>
+               <iframe src="https://www.youtube.com/embed/VwRbvVrUXTc" title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+          </div>
+          <div class="smallText">
+               <small>Puedes revisar más experimentos desarrollados por Google en el campo de la IA,
+                    en su web: <a href="https://experiments.withgoogle.com/collection/ai" target="_blank">Experiments
+                         with Google</a></small>
+          </div>
+          <div>
                <h2>Colormind</h2>
-               <p>Esta herramienta ayuda a los diseñadores a generar paletas de colores de forma automatizada basándose
+               <p data-aos="fade-left" data-aos-duration="1200">Esta herramienta ayuda a los diseñadores a generar
+                    paletas de colores de forma automatizada basándose
                     en combinaciones cromáticas que ya han funcionado anteriormente. Para encontrar esas líneas de color
                     armoniosas, el software tiene como punto de partida las redes neuronales.</p>
-               <p>También se pueden retocar cualquiera de los colores usando el mapa de color que se abre a través de
+               <p data-aos="fade-left" data-aos-duration="1200">También se pueden retocar cualquiera de los colores
+                    usando el mapa de color que se abre a través de
                     uno de los pequeños iconos debajo de los colores.</p>
-          </section>
+          </div>
           <figure>
                <img src="../img/colormind.jpg" alt="Ejemplo de Colormind">
           </figure>
-          <section data-aos="fade-right" data-aos-duration="1200">
+          <div>
                <h2>Fontjoy</h2>
-               <p> Al igual que Colormind, Fontjoy es una herramienta desarrollada también con redes neuronales. Esta
+               <p data-aos="fade-right" data-aos-duration="1200"> Al igual que Colormind, Fontjoy es una herramienta
+                    desarrollada también con redes neuronales. Esta
                     herramienta se utiliza para obtener un conjunto de fuentes fácilmente coincidentes cuando entras en
                     una página.</p>
-          </section>
+          </div>
           <figure>
                <img src="../img/fontjoy.jpg" alt="Ejemplo de Fontjoy">
           </figure>
-          <section>
+          <div>
                <h2 class="itemArt">Théâtre D'opéra Spatial, la representación perfecta de una ópera espacial, es un gran
                     ejemplo de una obra de arte realizada por una IA</h2>
-               <img src="../img/iaart.jpg" alt="Obra generada por IA" id="example">
-               <small id="incGames">Jason Allen, el nombre de quien generó la imagen con el software, es presidente de
+               <img src="../img/iaart.jpg" alt="Obra generada por IA">
+               <small class="smallText">Jason Allen, el nombre de quien generó la imagen con el software, es presidente
+                    de
                     una compañía de videojuegos, Incarnate Games.</small>
-          </section>
-          <section>
+          </div>
+               <h2 class="itemArt">Otros ejemplos de cuadros realizados por Inteligencia Artificial</h2>
+          <div class="conteiner-img">
+               <div class="box-img">
+                    <figure>
+                         <img src="../img/artimg-uno.png" alt="cuadro creado por IA">
+                    </figure>
+               </div>
+               <div class="box-img">
+                    <figure>
+                         <img src="../img/artimg-dos.png" alt="cuadro creado por IA">
+                    </figure>
+               </div>
+               <div class="box-img">
+                    <figure>
+                         <img src="../img/artimg-tres.png" alt="cuadro creado por IA">
+                    </figure>
+               </div>
+               <div class="box-img">
+                    <figure>
+                         <img src="../img/artimg-cuatro.png" alt="cuadro creado por IA">
+                    </figure>
+               </div>
+               <div class="box-img">
+                    <figure>
+                         <img src="../img/artimg-cinco.png" alt="cuadro creado por IA">
+                    </figure>
+               </div>
+               <div class="box-img">
+                    <figure>
+                         <img src="../img/artimg-seis.png" alt="cuadro creado por IA">
+                    </figure>
+               </div>
+               <div class="box-img">
+                    <figure>
+                         <img src="../img/artimg-siete.png" alt="cuadro creado por IA">
+                    </figure>
+               </div>
+          </div>
+          <div>
                <h2 class="itemArt">Producción y creación musical de la mano de la IA</h2>
                <p data-aos="fade-right" data-aos-duration="1200">Las Big Techs también se están involucrando en el nicho
                     de la producción y creación musical. Los equipos de Google, por ejemplo, publican continuamente
@@ -118,61 +177,56 @@
                     artificial para reconstruir la música de una manera moderna y eficiente. Provisto de género, artista
                     y letra como entrada, Jukebox produce una nueva muestra de música producida desde cero.</p>
                <div>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/Emidxpkyk6o"
-                         title="YouTube video player" frameborder="0"
+                    <iframe src="https://www.youtube.com/embed/Emidxpkyk6o" title="YouTube video player" frameborder="0"
                          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                          allowfullscreen></iframe>
                </div>
-          </section>
+          </div>
      </main>
      <footer>
           <h2>Conéctate con nosotros</h2>
           <section class="redes">
                <div>
                     <a href="https://www.facebook.com" target="_blank"><img class="icon" src="../img/facebookicon.png"
-                              alt=""></a>
+                              alt="icono de Facebook"></a>
                </div>
                <div>
                     <a href="https://www.twitter.com" target="_blank"><img class="icon" src="../img/twittericon.png"
-                              alt=""> </a>
+                              alt="icono de Twitter"></a>
                </div>
                <div>
                     <a href="https://www.instagram.com" target="_blank"><img class="icon" src="../img/instagramicon.png"
-                              alt=""></a>
+                              alt="icono de Instagram"></a>
                </div>
           </section>
           <div>
                <nav>
                     <ul>
                          <li>
-                              <i class="fa-solid fa-house"></i>
-                              <a href="../index.html">Inicio</a>
+                              <a href="../index.html"> <i class="fa-solid fa-house"></i></a>
                          </li>
                          <li>
-                              <i class="fa-sharp fa-solid fa-seedling"></i>
-                              <a href="./develop.html">Desarrollo sustentable</a>
+                              <a href="./develop.html"> <i class="fa-sharp fa-solid fa-seedling"></i></a>
                          </li>
                          <li>
-                              <i class="fa-sharp fa-solid fa-palette"></i>
-                              <a href="./art.html">Arte y creatividad</a>
+                              <a href="./art.html"> <i class="fa-sharp fa-solid fa-palette"></i></a>
                          </li>
                          <li>
-                              <i class="fa-sharp fa-solid fa-award"></i>
-                              <a href="./advantages.html">Ventajas</a>
+                              <a href="./advantages.html"> <i class="fa-sharp fa-solid fa-award"></i></a>
                          </li>
                          <li>
-                              <i class="fa-solid fa-people-group"></i>
-                              <a href="./aboutus.html">Sobre nosotros</a>
+                              <a href="./aboutus.html"> <i class="fa-solid fa-people-group"></i></a>
                          </li>
                          <li>
-                              <i class="fa-solid fa-envelope"></i>
-                              <a href="./contact.html">Contacto</a>
+                              <a href="./contact.html"> <i class="fa-solid fa-envelope"></i></a>
                          </li>
                     </ul>
                </nav>
           </div>
           <div id="subir">
-               <a href="#arriba">Volver al comienzo de página</a>
+               <a href="#arriba">
+                    <h5>Volver</h5>
+               </a>
           </div>
           <div>
                <h5>BlackHole - Attract your creativity</h5>
@@ -181,10 +235,21 @@
                <small>Sitio web desarrollado por Santino Vidal Gallea</small>
           </div>
      </footer>
+
+     <!-- Link Bootstrap JS -->
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
+     </script>
+
+     <!-- Link AOS JS -->
      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
      <script>
           AOS.init();
      </script>
+
+     <!-- Link Fontawesome JS -->
+     <script src="https://kit.fontawesome.com/45001440e7.js" crossorigin="anonymous"></script>
+
 </body>
 
 </html>
