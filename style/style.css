@@ -11,7 +11,7 @@
 
 /* --------Media Desktop-------- */
 
-@media (max-width: 1700px) {
+@media (max-width: 2000px) {
 
      /* -----Home----- */
 
@@ -524,8 +524,8 @@
      img {
           margin-top: 2rem;
           margin-bottom: 2rem;
-          width: 60vw;
-          height: 32vh;
+          width: 45vw;
+          height: 24vh;
      }
 
      .imgTop {
