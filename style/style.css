@@ -33,11 +33,11 @@
           display: flex;
           flex-direction: row;
           display: flex;
-          justify-content: space-evenly;
      }
 
      ul {
           list-style-type: none;
+          justify-content: space-evenly;
      }
 
      .navbar a {
