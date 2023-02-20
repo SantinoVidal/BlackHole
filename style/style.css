@@ -32,7 +32,6 @@
      nav ul {
           display: flex;
           flex-direction: row;
-          display: flex;
      }
 
      ul {
@@ -488,7 +487,6 @@
      nav ul {
           display: flex;
           flex-direction: row;
-          display: flex;
           justify-content: space-evenly;
      }
 
@@ -584,4 +582,53 @@
           margin: 0.5rem;
           margin-left: 1rem;
      }
+}
+
+/* --------Media Mobile small-------- */
+
+@media (max-width: 575.98px) {
+
+     /* -----Home----- */
+
+     .icon {
+          width: 2.3rem;
+          height: 2.3rem;
+     }
+
+     p {
+          font-size: 0.8rem;
+     }
+
+     h1 {
+          font-size: 1.8rem;
+     }
+
+     h2 {
+          font-size: 1.4rem;
+     }
+
+     /* -----Develop----- */
+
+     /* -----Art----- */
+
+     img {
+          width: 80vw;
+          height: 25vh;
+     }
+
+     .imgTop {
+          height: 25vh;
+     }
+
+     iframe {
+          width: 80vw;
+          height: 25vh;
+     }
+
+     /* -----Advantages----- */
+
+     /* -----About us----- */
+
+     /* -----Contact----- */
+
 }
