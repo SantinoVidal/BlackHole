@@ -1,0 +1,21 @@
+#backUs {
+     background-color: $background-color_4;
+}
+
+.aboutUs {
+     width: 24rem;
+     height: 4.5rem;
+     @include flex (center, wrap);
+}
+
+#mision {
+     font-family: $font-family_1;
+     font-size: 3rem;
+     text-align: center;
+     margin: 1rem 2rem 1rem 2rem;
+     color: $color_1;
+}
+
+.aboutUsP {
+     @include pAboutUs
+}

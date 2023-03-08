@@ -1,0 +1,165 @@
+body {
+     background-color: $background-color_1;
+     overflow-x: hidden;
+}
+
+#logo {
+     width: 12rem;
+     height: 3rem;
+     padding: 0rem;
+     margin: 0rem;
+     border: none;
+     border-radius: 0%;
+}
+
+nav {
+     ul {
+          display: flex;
+          flex-direction: row;
+     }
+}
+
+ul {
+     list-style-type: none;
+     justify-content: space-evenly;
+}
+
+.navbar {
+     a {
+          font-family: $font-family_1;
+          font-size: 0.8rem;
+          color: $color_1;
+          margin-right: 0.5rem;
+     }
+}
+
+.nav-link {
+     position: relative;
+     display: block;
+
+     &::after {
+          content: '';
+          opacity: 0;
+          transition: all 0.2s;
+     }
+
+     &:hover {
+          &::after {
+               opacity: 1;
+               height: 2px;
+               width: 100%;
+               background-color: $background-color_2;
+               position: absolute;
+               bottom: 0;
+               left: 0;
+          }
+     }
+}
+
+#glow {
+     background-color: $background-color_3;
+     color: $color_1;
+     border-radius: 2rem;
+     padding: 0.5rem;
+     position: relative;
+     display: flex;
+
+     &:hover {
+          background-color: $background-color_2;
+          color: $color_2;
+     }
+}
+
+footer {
+     font-family: $font-family_1;
+     color: $color_3;
+     background-color: $background-color_4;
+     margin-top: 5rem;
+     padding: 1rem;
+
+     a {
+          font-size: 2rem;
+          text-decoration: none;
+          color: $color_4;
+          cursor: pointer;
+          transition-duration: 0.4s;
+     }
+
+     h5 {
+          font-size: 1rem;
+          color: $color_3;
+     }
+
+     small {
+          font-size: 0.8rem;
+     }
+}
+
+.redes {
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     justify-content: center;
+     margin-top: 2rem;
+     margin-bottom: 2rem;
+}
+
+.icon {
+     width: 3rem;
+     height: 3rem;
+     margin-left: 1.6rem;
+     margin-right: 1.6rem;
+     margin-bottom: 1rem;
+}
+
+#subir {
+     text-align: center;
+     margin: 2rem;
+     background-color: $background-color_5;
+}
+
+a {
+     text-decoration: none;
+     cursor: pointer;
+     transition: 0.4s;
+
+     &:hover {
+          text-decoration: none;
+          color: $color_5;
+     }
+}
+
+p {
+     font-family: $font-family_2;
+     font-size: 1.4rem;
+     text-align: center;
+     color: $color_3;
+     margin-left: 13rem;
+     margin-right: 13rem;
+     margin-bottom: 1.5rem;
+     line-height: 2.3rem;
+}
+
+h1 {
+     font-family: $font-family_1;
+     font-size: 4rem;
+     text-align: center;
+     text-transform: uppercase;
+     margin: 3rem 5rem 3rem 5rem;
+     color: $color_3;
+}
+
+h2 {
+     font-family: $font-family_3;
+     font-size: 2.6rem;
+     text-align: center;
+     margin: 3rem 7rem 1.3rem 7rem;
+     color: $color_3;
+}
+
+#subTitle {
+     margin-top: 3rem;
+     margin-bottom: 3rem;
+     padding: 2rem;
+     background-image: linear-gradient(160deg, #0050d0 0%, #62d2c8 100%);
+}

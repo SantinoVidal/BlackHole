@@ -1,0 +1,14 @@
+@mixin flex($justify, $wrap) {
+     display: flex;
+     justify-content: $justify;
+     flex-wrap: $wrap;
+}
+
+@mixin pAboutUs {
+     font-family: $font-family_2;
+     font-size: 2rem;
+     line-height: 3rem;
+     text-align: center;
+     margin: 2rem 9rem 2rem 9rem;
+     color: $color_3;
+}

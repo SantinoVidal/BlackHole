@@ -1,0 +1,262 @@
+$color_1: #ffffff;
+$color_2: #000000;
+$color_3: #E3E3E3;
+$color_4: #0d7f9e;
+$color_5: #71e0ff;
+$font-family_1: 'Montserrat',
+sans-serif;
+$font-family_2: 'Palanquin',
+sans-serif;
+$font-family_3: 'Signika Negative',
+sans-serif;
+$background-color_1: rgb(14, 14, 14);
+$background-color_2: #71e0ff;
+$background-color_3: #0d7f9e;
+$background-color_4: rgb(0, 0, 0);
+$background-color_5: #141414;
+$background-color_6: rgb(23, 23, 23);
+
+@import "mixin", "index", "aboutus", "advantages", "art", "contact", "develop";
+
+@import "https://fonts.googleapis.com/css2?family=Palanquin:wght@300&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Signika+Negative&display=swap";
+
+@media (max-width: 991.98px) {
+	footer {
+		a {
+			font-size: 1.5rem;
+		}
+
+		h5 {
+			font-size: 0.9rem;
+		}
+	}
+
+	#subir {
+		padding: 0.2rem;
+		padding-bottom: 0.1rem;
+	}
+
+	p {
+		font-size: 1.2rem;
+		margin-left: 5rem;
+		margin-right: 5rem;
+		line-height: 2rem;
+	}
+
+	h1 {
+		font-size: 2.4rem;
+	}
+
+	h2 {
+		font-size: 1.9rem;
+	}
+
+	img {
+		width: 60vw;
+		height: 40vh;
+	}
+
+	.imgTop {
+		height: 50vh;
+	}
+
+	.smallText {
+		font-size: 1rem;
+	}
+
+	iframe {
+		margin-top: 2rem;
+		width: 75vw;
+		height: 50vh;
+	}
+
+	.conteiner-img {
+		max-width: 450px;
+	}
+
+	.aboutUs {
+		margin-top: 0.2rem;
+	}
+
+	.aboutUsP {
+		font-size: 1.3rem;
+		line-height: 2rem;
+		margin: 3rem 5rem 3rem 5rem;
+	}
+
+	fieldset {
+		width: 35rem;
+	}
+
+	form {
+		input {
+			width: 30rem;
+		}
+
+		textarea {
+			width: 30rem;
+		}
+
+		select {
+			width: 30rem;
+		}
+	}
+}
+
+@media (max-width: 767.98px) {
+	footer {
+		margin-top: 2rem;
+		padding: 0.2rem;
+
+		a {
+			font-size: 1rem;
+		}
+
+		h5 {
+			font-size: 0.7rem;
+			margin-left: 0.7rem;
+		}
+
+		small {
+			font-size: 0.6rem;
+			margin-left: 0.7rem;
+		}
+	}
+
+	.icon {
+		width: 2.5rem;
+		height: 2.5rem;
+		margin-left: 1.6rem;
+		margin-right: 1.6rem;
+		margin-bottom: 0.7rem;
+		margin-top: 0.7rem;
+	}
+
+	nav {
+		ul {
+			display: flex;
+			flex-direction: row;
+			justify-content: space-evenly;
+		}
+	}
+
+	p {
+		font-size: 1rem;
+		margin-left: 3rem;
+		margin-right: 3rem;
+		margin-bottom: 1rem;
+		line-height: 1.7rem;
+	}
+
+	h1 {
+		font-size: 2.2rem;
+		margin: 3rem 1rem 3rem 1rem;
+	}
+
+	h2 {
+		font-size: 1.7rem;
+		margin: 2rem 2rem 1.3rem 2rem;
+	}
+
+	.itemDev {
+		margin-top: 3rem;
+		margin-bottom: 2rem;
+		padding: 2rem;
+		background-image: linear-gradient(45deg, #03b855 0%, #60bc52 100%);
+	}
+
+	img {
+		margin-top: 2rem;
+		margin-bottom: 2rem;
+		width: 45vw;
+		height: 24vh;
+	}
+
+	.imgTop {
+		height: 35vh;
+	}
+
+	.smallText {
+		font-size: 0.9rem;
+		margin: 1rem 3rem 1rem 3rem;
+	}
+
+	iframe {
+		width: 80vw;
+		height: 40vh;
+	}
+
+	.aboutUs {
+		margin-top: 0.2rem;
+	}
+
+	.aboutUsP {
+		font-size: 1rem;
+		line-height: 2rem;
+		margin: 3rem 5rem 3rem 5rem;
+	}
+
+	fieldset {
+		width: 25rem;
+	}
+
+	label {
+		font-size: 1rem;
+	}
+
+	form {
+		input {
+			width: 20rem;
+			height: 1.7rem;
+			margin: 0.5rem;
+			margin-left: 1rem;
+		}
+
+		textarea {
+			width: 20rem;
+			margin: 0.5rem;
+			margin-left: 1rem;
+		}
+
+		select {
+			width: 20rem;
+			margin: 0.5rem;
+			margin-left: 1rem;
+		}
+	}
+}
+
+@media (max-width: 575.98px) {
+	.icon {
+		width: 2.3rem;
+		height: 2.3rem;
+	}
+
+	p {
+		font-size: 1.1rem;
+	}
+
+	h1 {
+		font-size: 1.8rem;
+	}
+
+	h2 {
+		font-size: 1.4rem;
+	}
+
+	img {
+		width: 80vw;
+		height: 25vh;
+	}
+
+	.imgTop {
+		height: 25vh;
+	}
+
+	iframe {
+		width: 80vw;
+		height: 25vh;
+	}
+}
